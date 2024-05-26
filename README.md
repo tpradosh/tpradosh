@@ -1,4 +1,9 @@
-## Hi there 👋
+#####**Hi, my name is Pradosh Thirunavukkarasu and I am currently a computer science undergraduate student @[UC Irvine](https://uci.edu/)
+                                                                                                                                                                                                                                                                                                                                                
+I am currently intersted in computer science 
+
+
+
 
 <!--
 **tpradosh/tpradosh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
