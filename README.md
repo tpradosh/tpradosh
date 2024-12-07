@@ -1,4 +1,4 @@
-### **Hi There, my name is Pradosh Thirunavukkarasu and I am currently a computer science undergraduate student @[UC Irvine](https://uci.edu/)**
+### **Hi There, my name is Pradosh Thirunavukkarasu and I am currently a computer science undergraduate student [@UC Irvine](https://uci.edu/)**
 
 
 
