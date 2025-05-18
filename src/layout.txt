@@ -1,0 +1,12 @@
+top navigation bar to each section 
+
+    pfp , intro text
+
+Expierence section - class
+   - one expiercne class obj per 
+
+Project section - class
+    -   - one proj class obj per 
+
+Contact info socials 
+    -   
