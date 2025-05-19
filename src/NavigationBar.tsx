@@ -15,7 +15,7 @@ function NavigationBar(){
     useEffect(() => {
         const handleScroll = () => {
         const currentY = window.scrollY;
-        setShow(currentY > 500); // show only when not at top
+        setShow(currentY > 400); // show only when not at top
         };
     
         window.addEventListener('scroll', handleScroll);
@@ -29,7 +29,7 @@ function NavigationBar(){
             show ? 'translate-y-0' : '-translate-y-full'} bg-green text-black shadow-md`}>
             
             
-            <div className = "max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div className = "px-4 py-3 flex items-center justify-between">
                 <div className = "text-xl font-bold">Pradosh T</div>
                 <nav className = "space-x-4 font-bold">
                     <a href = "#home" className = "hover:underline">Home</a>

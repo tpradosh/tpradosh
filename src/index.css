@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.hover-box_green{
+    transition: transform 1.2s ease, color 0.8s ease;
+    border: 2px;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.hover-box_green:hover {
+    color: rgb(0, 0, 0);
+    background-color: #1B998B; 
+    border-color: #1B998B;
+    transform: scale(2);
+}
+
+@keyframes fade-up {
+    0%{
+        opacity: 0%;
+        transform: translateY(50px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+
+@keyframes fade-down {
+    0%{
+        opacity: 0%;
+        transform: translateY(-20px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+.fade-up {
+    animation: fade-up 0.6s ease-out forwards;
+  }
+  
+.fade-down {
+    animation: fade-down 0.6s ease-out forwards;
+}

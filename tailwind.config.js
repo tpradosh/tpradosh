@@ -9,11 +9,15 @@ export default {
     extend: {
       colors: {
         black : "#010400",
-        blue : "#004E89",
-        white : "#D6D6D6",
-        green: "#1B998B"
+        blue : "#007FE0",
+        white : "#FFFFFF",
+        green: "#25D0BC",
+        timberwolf : "#D6D6D6",
+        red : "#F93943"
       }
     },
   },
   plugins: [],
 }
+
+

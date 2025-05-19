@@ -19,7 +19,7 @@ function Intro_txt(){
         setOne(true);
 
         const one_time = '👋 Hi! My name is '.length * type_speed + 500
-        const two_time = one_time + 'Pradosh Thirunavukkarasu'.length * type_speed + 500
+        const two_time = one_time + ' Pradosh Thirunavukkarasu'.length * type_speed + 500
         
         const timer1 = setTimeout(() => setTwo(true), one_time);
         const timer2 = setTimeout(() => setThree(true), two_time);
@@ -37,9 +37,9 @@ function Intro_txt(){
 
 
     return (
-        <div className="text-white text-4xl font-bold text-left">
+        <div className="text-white font-bold text-left">
           {one && (
-            <span className="text-white">
+            <span className="text-white text-3xl">
               <Typewriter
                 words={['👋 Hi! My name is ']}
                 loop={1}
@@ -52,9 +52,9 @@ function Intro_txt(){
         <br />
 
           {two && (
-            <span className="text-blue">
+            <span className="text-green text-4xl">
               <Typewriter
-                words={['Pradosh Thirunavukkarasu']}
+                words={[' Pradosh Thirunavukkarasu']}
                 loop={1}
                 cursor={false}
                 typeSpeed={type_speed}
@@ -65,9 +65,9 @@ function Intro_txt(){
           <br />
     
           {three && (
-            <span className="text-white">
+            <span className="text-white text-2xl">
               <Typewriter
-                words={['Welcome to my Website!']}
+                words={[' Welcome to my Website!']}
                 loop={1}
                 cursor
                 cursorStyle="|"
