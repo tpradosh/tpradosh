@@ -8,7 +8,7 @@ interface ExperienceProp{
     color: string;
 }
 
-function Experience({ img, company, role, time, descr, url, color}: ExperienceProps) {
+function Experience({ img, company, role, time, descr, color}: ExperienceProp) {
     const Map: Record<string, string> = {
         blue: 'text-blue', 
         green: 'text-red',

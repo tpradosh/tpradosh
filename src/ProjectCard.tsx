@@ -8,7 +8,7 @@ interface ProjectCard{
 }
 
 
-function ProjectCard({ img, title, time, descr, url,color }: ProjectCardProps) {
+function ProjectCard({ img, title, time, descr, color }: ProjectCard) {
     const Map: Record<string, string> = {
       blue: 'text-blue', 
       lgreen: 'text-dgreen',
