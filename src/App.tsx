@@ -3,6 +3,7 @@ import Intro from './Intro.tsx'
 import Taskbar from './NavigationBar.tsx'
 import ExperienceSection from './ExperienceSection.tsx'
 import ProjectSection from './ProjectsSection.tsx'
+import Contact from './Contact.tsx'
 
 function App() {
 
@@ -33,6 +34,9 @@ function App() {
           this is for spacing
         </div>
 
+        <div className = "h-[20vh]">
+          <Contact />
+        </div>
 
       </div>
     </>

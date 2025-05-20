@@ -12,7 +12,7 @@ function Intro(){
                     <div className = "px-4 py-3 flex items-center justify-between">
                         <nav className = "space-x-4 font-bold text-xl">
                             <a href = "#home" className = "hover-box_green">Home</a>
-                            <a href = "#expierence" className = "hover-box_green">Expierence</a>
+                            <a href = "#expierence" className = "hover-box_green">Experience</a>
                             <a href = "#projects" className = "hover-box_green">Projects</a>
                             <a href = "#contact" className = "hover-box_green">Contact</a>
                         </nav>
