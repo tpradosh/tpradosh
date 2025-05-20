@@ -1,5 +1,5 @@
 import Intro_txt from './Intro_txt';
-import bird from './assets/bird.webp'
+import test from './assets/test.png'
 
 function Intro(){
 
@@ -22,7 +22,7 @@ function Intro(){
 
                 <div className = 'fade-up'>
                     <div className = 'flex items-center justify-center h-[50vh]'>
-                        <img src= {bird} alt="Profile" className="rounded-full w-[40vh] h-[40vh] object-cover" />
+                        <img src= {test} alt="Profile" className="rounded-full w-[40vh] h-[40vh] object-cover" />
                     </div>
                 </div>
 
