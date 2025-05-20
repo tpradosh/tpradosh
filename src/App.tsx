@@ -16,12 +16,24 @@ function App() {
         <div className = "min-h-screen">
           <Intro />
         </div>
-        <div className = "h-[80vh]">
+        <div className = "py-12">
           <ExperienceSection />
         </div>
-        <div className = "h-[100vh]">
+
+        <div className = "h-[20vh] text-black">
+          this is for spacing
+        </div>
+
+        <div className = "py-12 ml-[6vw] mr-[6vw]">
           <ProjectSection />
         </div>
+
+
+        <div className = "h-[20vh] text-black">
+          this is for spacing
+        </div>
+
+
       </div>
     </>
   )

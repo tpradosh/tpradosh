@@ -15,8 +15,24 @@
     color: rgb(0, 0, 0);
     background-color: #1B998B; 
     border-color: #1B998B;
-    transform: scale(2);
 }
+
+.hover-box_black{
+    transition: transform 1.2s ease, color 0.8s ease;
+    border: 2px;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.hover-box_black:hover {
+    color: #1B998B;
+    background-color: #000000; 
+    border-color: #000000;
+}
+
+
+
+
 
 @keyframes fade-up {
     0%{

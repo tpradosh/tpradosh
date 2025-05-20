@@ -23,7 +23,7 @@ function ExperienceSection(){
                         url = "klgajds;f.com"
                         color = "blue"
                     />
-                    <Experience 
+                    {/* <Experience 
                         img = {Test}
                         company = "Boundary Remote Sensing Systems"
                         role = "Software Developer"
@@ -31,7 +31,7 @@ function ExperienceSection(){
                         descr = "Created Wifi Mappings leveraging RF RSSI Wifi data to map out a geospatial area"
                         url = "klgajds;f.com"
                         color = "green"
-                    />
+                    /> */}
                 </div>
 
             </div>

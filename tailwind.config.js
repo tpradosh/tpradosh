@@ -13,7 +13,12 @@ export default {
         white : "#FFFFFF",
         green: "#25D0BC",
         timberwolf : "#D6D6D6",
-        red : "#F93943"
+        red : "#EF233C",
+        orange : "#FF7F11",
+        yellow : "#F5B82E",
+        lime : "#12CF3E",
+        indigo : "#A682FF",
+
       }
     },
   },
