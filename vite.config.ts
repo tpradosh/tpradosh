@@ -12,4 +12,6 @@ import react from '@vitejs/plugin-react'
 // replace `your-username` and `your-repo-name` accordingly
 export default defineConfig({
   plugins: [react()],
+  base : '/'
+
 })
