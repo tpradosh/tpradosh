@@ -10,9 +10,9 @@ function Contact(){
                 <div className = "ml-[20vw] mr-[20vw] flex justify-between text-xl font-bold">
                     
                     <p className = "hover-box_green">tpradosh360@gmail.com</p>
-                    <p className = "hover-box_green"><a href = 'https://www.linkedin.com/in/pradosht/'>Linkedin</a></p>
-                    <p className = "hover-box_green"><a href = 'https://github.com/tpradosh/'>Github</a></p>
-                    <p className = "hover-box_green"><a href = 'https://drive.google.com/file/d/100tf2IF-AQrR6V6La0wjaBh1AUIeSFJm/view?usp=sharing'>Resume</a></p>
+                    <a className = "hover-box_green" href = 'https://www.linkedin.com/in/pradosht/'>Linkedin</a>
+                    <a className = "hover-box_green" href = 'https://github.com/tpradosh/'>Github</a>
+                    <a className = "hover-box_green" href = 'https://drive.google.com/file/d/100tf2IF-AQrR6V6La0wjaBh1AUIeSFJm/view?usp=sharing'>Resume</a>
 
                 </div>
         </>

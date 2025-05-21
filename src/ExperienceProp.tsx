@@ -8,7 +8,7 @@ interface ExperienceProp{
     color: string;
 }
 
-function Experience({ img, company, role, time, descr, color}: ExperienceProp) {
+function Experience({ img, company, role, time, descr, color, url}: ExperienceProp) {
     const Map: Record<string, string> = {
         blue: 'text-blue', 
         green: 'text-red',
@@ -16,9 +16,10 @@ function Experience({ img, company, role, time, descr, color}: ExperienceProp) {
     
     
     return (
-            <div className="mt-[5vh] w-full p-4 md:p-6 border border-white rounded-md flex flex-col md:flex-row items-start bg-black">
+        <a href = {url}>
+            <div className="hover-large mt-[5vh] w-full p-4 md:p-6 border border-white rounded-md flex flex-col md:flex-row items-start bg-black">
                 <div className="w-full md:w-1/4 mb-4 md:mb-0">
-                    <img src={img} className="w-full h-[150px] object-cover rounded-lg"/>
+                    <img src={img} className="w-[150px] h-[150px] object-cover rounded-lg"/>
                 </div>
 
                 <div className="flex-1 text-left md:ml-10">
@@ -28,6 +29,7 @@ function Experience({ img, company, role, time, descr, color}: ExperienceProp) {
                     <p className="text-sm text-timberwolf italic mt-6">{time}</p>
                 </div>
             </div>
+        </a>
     );
   }
 

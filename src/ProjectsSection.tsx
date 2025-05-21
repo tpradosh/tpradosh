@@ -18,7 +18,7 @@ function ProjectSection() {
                     title = "Bitcoin OHLC Visualizer"
                     time = "May. 2025"
                     descr = "A Visualizer of Bitcoin data in Open Low High Close Charts"
-                    url = "klgajds;f.com"
+                    url = "https://github.com/tpradosh/btc"
                     color = "lime"
 
                 />
@@ -27,7 +27,7 @@ function ProjectSection() {
                     title = "Computer Vision Object Tracker"
                     time = "Feb. 2025"
                     descr = "Tracker of Object Movement within Videos"
-                    url = "klgajds;f.com"
+                    url = "https://github.com/tpradosh/obj-finder"
                     color = "yellow"
                 /> 
                 <ProjectCard 
@@ -35,7 +35,7 @@ function ProjectSection() {
                     title = "ZOTNostic"
                     time = "Nov. 2024"
                     descr = "An AI Chatbot that helps users with Medical Diagnosis"
-                    url = "klgajds;f.com"
+                    url = "https://github.com/setripper/ZotNostic"
                     color = "blue"
                 /> 
                 <ProjectCard 
@@ -43,7 +43,7 @@ function ProjectSection() {
                     title = "Portfolio Website"
                     time = "Oct. 2024"
                     descr = "My Website to display my current experience and projects"
-                    url = "klgajds;f.com"
+                    url = "https://github.com/tpradosh/tpradosh.github.io"
                     color = 'red'
                 /> 
             </div>

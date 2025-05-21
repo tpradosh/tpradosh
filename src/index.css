@@ -30,7 +30,13 @@
     border-color: #000000;
 }
 
+.hover-large{
+    transition: transform 0.6s;
+}
 
+.hover-large:hover{
+    transform: scale(1.05);
+}
 
 
 

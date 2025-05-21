@@ -20,7 +20,7 @@ function ExperienceSection(){
                         role = "Software Developer"
                         time = "Jan. 2025 - Present"
                         descr = "Created Wifi Mappings leveraging RF RSSI Wifi data to map out a geospatial area"
-                        url = "klgajds;f.com"
+                        url = "https://www.linkedin.com/company/boundary-remote-sensing-systems/"
                         color = "blue"
                     />
                     {/* <Experience 
