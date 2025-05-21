@@ -12,7 +12,7 @@ function Contact(){
                     <p className = "hover-box_green">tpradosh360@gmail.com</p>
                     <p className = "hover-box_green"><a href = 'https://www.linkedin.com/in/pradosht/'>Linkedin</a></p>
                     <p className = "hover-box_green"><a href = 'https://github.com/tpradosh/'>Github</a></p>
-                    <p className = "hover-box_green"><a href = 'https://github.com/tpradosh/'>Resume</a></p>
+                    <p className = "hover-box_green"><a href = 'https://drive.google.com/file/d/100tf2IF-AQrR6V6La0wjaBh1AUIeSFJm/view?usp=sharing'>Resume</a></p>
 
                 </div>
         </>

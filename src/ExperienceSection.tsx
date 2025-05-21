@@ -1,5 +1,5 @@
 import Experience from "./ExperienceProp"
-import Test from "./assets/test.png"
+import BRSS from "./assets/BRSS.jpeg"
 
 
 function ExperienceSection(){
@@ -15,7 +15,7 @@ function ExperienceSection(){
 
                 <div className = "ml-[10vw] mr-[10vw]">
                     <Experience 
-                        img = {Test}
+                        img = {BRSS}
                         company = "Boundary Remote Sensing Systems"
                         role = "Software Developer"
                         time = "Jan. 2025 - Present"

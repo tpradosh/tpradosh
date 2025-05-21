@@ -18,7 +18,7 @@ function Experience({ img, company, role, time, descr, color}: ExperienceProp) {
     return (
             <div className="mt-[5vh] w-full p-4 md:p-6 border border-white rounded-md flex flex-col md:flex-row items-start bg-black">
                 <div className="w-full md:w-1/4 mb-4 md:mb-0">
-                    <img src={img} className="w-full h-auto object-cover rounded-lg"/>
+                    <img src={img} className="w-full h-[150px] object-cover rounded-lg"/>
                 </div>
 
                 <div className="flex-1 text-left md:ml-10">

@@ -32,10 +32,10 @@ function NavigationBar(){
             <div className = "px-4 py-3 flex items-center justify-between">
                 <div className = "text-xl font-bold">Pradosh T</div>
                 <nav className = "space-x-4 font-bold">
-                    <a href = "#home" className = "hover-box_black">Home</a>
-                    <a href = "#experience" className = "hover-box_black">Experience</a>
-                    <a href = "#projects" className = "hover-box_black">Projects</a>
-                    <a href = "#contact" className = "hover-box_black">Contact</a>
+                    <a href = "#Home" className = "hover-box_black">Home</a>
+                    <a href = "#Experience" className = "hover-box_black">Experience</a>
+                    <a href = "#Projects" className = "hover-box_black">Projects</a>
+                    <a href = "#Contact" className = "hover-box_black">Contact</a>
 
                 </nav>
             </div>

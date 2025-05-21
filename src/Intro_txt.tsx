@@ -18,8 +18,8 @@ function Intro_txt(){
         
         setOne(true);
 
-        const one_time = '👋 Hi! My name is '.length * type_speed + 500
-        const two_time = one_time + ' Pradosh Thirunavukkarasu'.length * type_speed + 500
+        const one_time = '👋 Hi! My name is '.length * type_speed +500
+        const two_time = one_time + ' Pradosh Thirunavukkarasu'.length * (type_speed) + 500
         
         const timer1 = setTimeout(() => setTwo(true), one_time);
         const timer2 = setTimeout(() => setThree(true), two_time);

@@ -14,30 +14,41 @@ function App() {
           <Taskbar />
         </div>
 
-        <div className = "min-h-screen">
-          <Intro />
-        </div>
-        <div className = "py-12">
-          <ExperienceSection />
-        </div>
+        <section id = "Home">
+          <div className = "min-h-screen">
+            <Intro />
+          </div>
+        </section>
 
-        <div className = "h-[20vh] text-black">
-          this is for spacing
+        <div className = "fade-down">
+          <section id = "Experience">
+
+            <div className = "py-12">
+              <ExperienceSection />
+            </div>
+          </section>
+
+          <div className = "h-[20vh] text-black">
+            this is for spacing
+          </div>
+
+          <section id = "Projects">
+            <div className = "py-12 ml-[6vw] mr-[6vw]">
+              <ProjectSection />
+            </div>
+          </section>
+
+
+          <div className = "h-[20vh] text-black">
+            this is for spacing
+          </div>
+
+          <section id = "Contact">
+            <div className = "h-[20vh]">
+              <Contact />
+            </div>
+          </section>
         </div>
-
-        <div className = "py-12 ml-[6vw] mr-[6vw]">
-          <ProjectSection />
-        </div>
-
-
-        <div className = "h-[20vh] text-black">
-          this is for spacing
-        </div>
-
-        <div className = "h-[20vh]">
-          <Contact />
-        </div>
-
       </div>
     </>
   )

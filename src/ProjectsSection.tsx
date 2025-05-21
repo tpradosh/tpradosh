@@ -1,28 +1,20 @@
 import ProjectCard from "./ProjectCard"
 import Test from "./assets/test.png"
 import ZOTNostic from './assets/ZOTNostic.png'
+import BTC from './assets/btc.png'
+import CVOT from './assets/cvot.jpg'
 
 function ProjectSection() {
-
-
 
 
     return(
         <>
             <div className = "text-green text-4xl font-bold pt-[15px]"> 
-                💻 Projects
+            🚀 Projects
             </div>
             <div className = "flex flex-wrap justify-center">
                 <ProjectCard 
-                    img = {Test}
-                    title = "Portfolio Website"
-                    time = "May. 2025"
-                    descr = "My Website to display my current experience and projects"
-                    url = "klgajds;f.com"
-                    color = 'red'
-                /> 
-                <ProjectCard 
-                    img = {Test}
+                    img = {BTC}
                     title = "Bitcoin OHLC Visualizer"
                     time = "May. 2025"
                     descr = "A Visualizer of Bitcoin data in Open Low High Close Charts"
@@ -31,7 +23,7 @@ function ProjectSection() {
 
                 />
                 <ProjectCard 
-                    img = {Test}
+                    img = {CVOT}
                     title = "Computer Vision Object Tracker"
                     time = "Feb. 2025"
                     descr = "Tracker of Object Movement within Videos"
@@ -46,7 +38,14 @@ function ProjectSection() {
                     url = "klgajds;f.com"
                     color = "blue"
                 /> 
-
+                <ProjectCard 
+                    img = {Test}
+                    title = "Portfolio Website"
+                    time = "Oct. 2024"
+                    descr = "My Website to display my current experience and projects"
+                    url = "klgajds;f.com"
+                    color = 'red'
+                /> 
             </div>
         </>
 
