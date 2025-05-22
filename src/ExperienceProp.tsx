@@ -23,7 +23,7 @@ function Experience({ img, company, role, time, descr, color, url}: ExperiencePr
                 </div>
 
                 <div className="flex-1 text-left md:ml-10">
-                <h3 className={`text-2xl font-bold ${Map[color]}`}>{role}</h3>
+                    <h3 className={`text-2xl font-bold ${Map[color]}`}>{role}</h3>
                     <p className="text-white font-semibold">{company}</p>
                     <p className="text-white mt-4 text-timberwolf">{descr}</p>
                     <p className="text-sm text-timberwolf italic mt-6">{time}</p>

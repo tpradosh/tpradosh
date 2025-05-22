@@ -26,7 +26,7 @@ function ProjectSection() {
                     img = {CVOT}
                     title = "Computer Vision Object Tracker"
                     time = "Feb. 2025"
-                    descr = "Tracker of Object Movement within Videos"
+                    descr = "A Tracker that detects Object Movement within Videos"
                     url = "https://github.com/tpradosh/obj-finder"
                     color = "yellow"
                 /> 

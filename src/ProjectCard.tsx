@@ -26,7 +26,7 @@ function ProjectCard({ img, title, time, descr, color, url}: ProjectCard) {
             <div className="border border-white rounded-md bg-black flex flex-col h-full">
               <img src={img} className="w-full h-48 object-cover rounded-t-md" />
       
-              <div className="p-4 flex flex-col justify-between flex-grow">
+              <div className="p-4 flex flex-col">
                 <div>
                   <h3 className={`text-xl font-bold ${Map[color]}`}>{title}</h3>
                   <p className="text-white mt-2 text-timberwolf">{descr}</p>

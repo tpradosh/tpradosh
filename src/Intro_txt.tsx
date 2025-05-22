@@ -39,7 +39,7 @@ function Intro_txt(){
     return (
         <div className="text-white font-bold text-left">
           {one && (
-            <span className="text-white text-3xl">
+            <span className="text-white text-4xl">
               <Typewriter
                 words={['👋 Hi! My name is ']}
                 loop={1}
@@ -52,7 +52,7 @@ function Intro_txt(){
         <br />
 
           {two && (
-            <span className="text-green text-4xl">
+            <span className="text-green text-5xl">
               <Typewriter
                 words={[' Pradosh Thirunavukkarasu']}
                 loop={1}
@@ -65,7 +65,7 @@ function Intro_txt(){
           <br />
     
           {three && (
-            <span className="text-white text-2xl">
+            <span className="text-white text-3xl">
               <Typewriter
                 words={[' Welcome to my Website!']}
                 loop={1}
